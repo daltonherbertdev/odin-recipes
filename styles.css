@@ -5,11 +5,35 @@ body {
 p,
 ul,
 h1,
-li {
+li,
+h2,
+h3 {
     text-align: center;
     
 }
 
-ul {
+ul,
+ol {
     list-style-position: inside;
+}
+
+h1 {
+    font-style: oblique;
+
+
+}
+
+
+.turtle-cookies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.homepage {
+    display: block;
+    width: fit-content;
+    margin: auto;
 }
