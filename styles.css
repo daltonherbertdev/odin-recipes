@@ -1,3 +1,15 @@
 body {
     background-color: rgba(140, 240, 115, 0.801);
 }
+
+p,
+ul,
+h1,
+li {
+    text-align: center;
+    
+}
+
+ul {
+    list-style-position: inside;
+}
